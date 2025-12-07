@@ -1,1 +1,75 @@
 /* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+}
+body {
+  font-size: 16px;
+  color: #121212;
+  margin: 0%;
+}
+
+.naver-login,
+.naver-logo {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.login-box {
+  display: flex;
+  flex-flow: nowrap column;
+  width: 100%;
+  text-align: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-inline: 20px;
+
+  #login-id,
+  #login-pw {
+    inline-size: 60%;
+    font-size: 14px;
+    block-size: 45px;
+    border: 1px solid #dadada;
+    background: #fff;
+    margin: 5px;
+    padding-left: 20px;
+  }
+
+  .naver-submit {
+    button {
+      font-size: 16px;
+      block-size: 45px;
+      color: #fff;
+      background: #03cf5d;
+      margin-top: 20px;
+      inline-size: 63%;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .submit-box {
+    inline-size: 80%;
+    padding: 10px;
+    text-align: right;
+  }
+
+  .hint-message,
+  .id-hint-message {
+    display: none;
+    color: red;
+  }
+}
