@@ -9,7 +9,7 @@
   color: var(--white);
   text-align: center;
 
-  background: url(./products/ipad_pro.jpeg) no-repeat;
+  background: url(../products/ipad_pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -60,7 +60,7 @@
 
   @media (width>= 1024px) {
     margin-bottom: var(--extra-large-spacing);
-    background: url(./products/ipad_pro_wide.jpeg);
+    background: url(../products/ipad_pro_wide.jpeg);
     background-position: center;
 
     .product-content {
@@ -86,7 +86,7 @@
   color: var(--black);
   text-align: center;
 
-  background: url(./products/ipad_air.jpeg) no-repeat;
+  background: url(../products/ipad_air.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -162,7 +162,7 @@
   color: var(--white);
   text-align: center;
 
-  background: url(./products/iphone15_pro.jpeg) no-repeat;
+  background: url(../products/iphone15_pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -207,7 +207,7 @@
 
   @media (width>= 1024px) {
     margin-bottom: var(--extra-large-spacing);
-    background: url(./products/iphone15_pro_wide.jpeg) no-repeat;
+    background: url(../products/iphone15_pro_wide.jpeg) no-repeat;
     background-position: center;
 
     .product-content {
@@ -233,7 +233,7 @@
   color: var(--black);
   text-align: center;
 
-  background: url(./products/iphone15.jpeg) no-repeat;
+  background: url(../products/iphone15.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -303,7 +303,7 @@
   color: var(--white);
   text-align: center;
 
-  background: url(./products/apple_watch.jpeg) no-repeat;
+  background: url(../products/apple_watch.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -372,7 +372,7 @@
   color: var(--black);
   text-align: center;
 
-  background: url(./products/macbook_air.jpeg) no-repeat;
+  background: url(../products/macbook_air.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
@@ -442,7 +442,7 @@
   color: var(--white);
   text-align: center;
 
-  background: url(./products/airpods_pro.jpeg) no-repeat;
+  background: url(../products/airpods_pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: var(--large-spacing);
