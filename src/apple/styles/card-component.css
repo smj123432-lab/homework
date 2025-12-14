@@ -1,6 +1,6 @@
-@import './reset.css';
-@import './theme.css';
-@import './base.css';
+@import '/reset.css';
+@import '/theme.css';
+@import '/base.css';
 
 .ipad-pro {
   margin-bottom: var(--large-spacing);
